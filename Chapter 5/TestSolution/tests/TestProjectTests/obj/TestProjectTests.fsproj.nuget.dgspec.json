@@ -1,0 +1,158 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\tests\\TestProjectTests\\TestProjectTests.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj",
+        "projectName": "TestProject",
+        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj",
+        "packagesPath": "C:\\Users\\DavidUngar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DavidUngar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\6.0.301\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.5, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\tests\\TestProjectTests\\TestProjectTests.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\tests\\TestProjectTests\\TestProjectTests.fsproj",
+        "projectName": "TestProjectTests",
+        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\tests\\TestProjectTests\\TestProjectTests.fsproj",
+        "packagesPath": "C:\\Users\\DavidUngar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\tests\\TestProjectTests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\DavidUngar\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files\\dotnet\\sdk\\6.0.301\\FSharp\\library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj": {
+                "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj"
+              }
+            }
+          }
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "FSharp.Core": {
+              "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
+              "target": "Package",
+              "version": "[6.0.5, )",
+              "generatePathProperty": true
+            },
+            "FsUnit": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "FsUnit.XUnit": {
+              "target": "Package",
+              "version": "[5.0.0, )",
+              "generatePathProperty": true
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[17.1.0, )",
+              "generatePathProperty": true
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.1.2, )",
+              "generatePathProperty": true
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )",
+              "generatePathProperty": true
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )",
+              "generatePathProperty": true
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.301\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

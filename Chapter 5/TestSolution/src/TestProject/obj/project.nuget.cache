@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "YFJccOJJBZXybHik0iXSkwV2aeSfLMyxFJXCPehbaL1h2D7EU51IS21WMYI9LpVbB7ON8M8pouItsZMEO7bi4Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 5\\TestSolution\\src\\TestProject\\TestProject.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,14 @@
+dotnet new sln -o TestSolution
+cd TestSolution
+mkdir src
+dotnet new console -lang F# -o src/TestProject
+dotnet sln add src/TestProject/TestProject.fsproj
+mkdir tests
+dotnet new xunit -lang F# -o tests/TestProjectTests
+dotnet sln add tests/TestProjectTests/TestProjectTests.fsproj
+cd tests/TestProjectTests
+dotnet add reference ../../src/TestProject/TestProject.fsproj
+dotnet add package FsUnit
+dotnet add package FsUnit.XUnit
+dotnet build
+dotnet test
