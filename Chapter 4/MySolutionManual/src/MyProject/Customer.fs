@@ -1,4 +1,4 @@
-module MyPorject.Customer // Namespace.Module
+module MyProject.Customer // Namespace.Module
 
 type Customer = {
     Id : int
