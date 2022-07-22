@@ -11,4 +11,4 @@ module ``I can group my tests in a module and run`` =
 
     [<Fact>]
     let ``My second test`` () =
-        Assert.True(true)
+        Assert.True(false)

@@ -1,17 +1,26 @@
-module MyApplication.Customer // Namespace.Module
-open System
+module MyPorject.Customer // Namespace.Module
 
 type Customer = {
-    Name : string
+    Id : int
+    IsVip : bool
+    Credit : decimal
 }
 
-module Domain =
-    let create (name:string) =
-        { Name = name }
-    
-module Db =
-    open System.IO
+let getPurchases customer =
+    let purchases = if customer.Id % 2 = 0 then 120M else 80M
+    (customer, purchases)
 
-    let save (customer:Customer) =
-    // Imagine this talks to a database
-        ()
+let tryPromoteToVip purchases =
+    let (customer, amount ) = purchases
+    if amount > 100M then { customer with IsVip = true }
+    else customer
+
+let increasedCreditIfVip customer =
+    let increase = if customer.IsVip then 100M else 50M
+    { customer with Credit = customer.Credit + increase }
+
+let upgradeCustomer customer =
+    customer
+    |> getPurchases
+    |> tryPromoteToVip
+    |> increasedCreditIfVip
