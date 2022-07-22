@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "2Gul6IOvJki9ij+mXIEqr5penMC2takC1d8BSU2ivaFw7UbP4qx/qgwCQGClC/WlRptljwYotHlnIDfYMCCfxQ==",
+  "dgSpecHash": "aHOxhbxAtxRuvamUqxCe05803HDofwzkQrB/MhJLhPjNBVziY5qafxGyfZICwrNEbin9KBzEU9iG3CsbAseupA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj",
+  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512"
   ],

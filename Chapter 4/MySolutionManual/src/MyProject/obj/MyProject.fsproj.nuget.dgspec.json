@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj": {}
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj": {
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj",
+        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj",
         "projectName": "MyProject",
-        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj",
+        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj",
         "packagesPath": "C:\\Users\\DavidUngar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DavidUngar\\AppData\\Roaming\\NuGet\\NuGet.Config"
