@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\MyProjectTests.fsproj": {}
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\MyProjectTests.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj": {
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj",
+        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj",
         "projectName": "MyProject",
-        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj",
+        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj",
         "packagesPath": "C:\\Users\\DavidUngar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\obj\\",
+        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DavidUngar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -60,14 +60,14 @@
         }
       }
     },
-    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\MyProjectTests.fsproj": {
+    "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\MyProjectTests.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\MyProjectTests.fsproj",
+        "projectUniqueName": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\MyProjectTests.fsproj",
         "projectName": "MyProjectTests",
-        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\MyProjectTests.fsproj",
+        "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\MyProjectTests.fsproj",
         "packagesPath": "C:\\Users\\DavidUngar\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\obj\\",
+        "outputPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\DavidUngar\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -83,8 +83,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj": {
-                "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\src\\MyProject\\MyProject.fsproj"
+              "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj": {
+                "projectPath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\src\\MyProject\\MyProject.fsproj"
               }
             }
           }

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "UbxLW6ajvOV2JsBvz6vSK3tlOn90HS1VMiDsr4YW3RxQFh/9fsosHbCuDqULCX+0quX+mWkxGyLEw2jscHQgcA==",
+  "dgSpecHash": "tV4G8Pz0DdaWCJkHbRPALBx6O1CmAwu6DVF/q/Hw7SKnNzGk/fe4foXcQej0YtylC6qVro66FCDElrGubYEUHg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolution\\tests\\MyProjectTests\\MyProjectTests.fsproj",
+  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 4\\MySolutionManual\\tests\\MyProjectTests\\MyProjectTests.fsproj",
   "expectedPackageFiles": [
     "C:\\Users\\DavidUngar\\.nuget\\packages\\coverlet.collector\\3.1.2\\coverlet.collector.3.1.2.nupkg.sha512",
     "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512",
