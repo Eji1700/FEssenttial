@@ -21,3 +21,10 @@ module ``When upgrading customer`` =
 
         let upgraded = upgradeCustomer customer
         upgraded |> should equal expected
+
+    [<Fact>]
+    let ``should not upgrade eligible STD customer to VIP`` () =
+        let customer = { Id = 3; IsVip = false; Credit = 50M }
+        let expected = { customer with Credit = customer.Credit + 50M }
+        let upgraded = upgradeCustomer customer
+        upgraded |> should equal expected
