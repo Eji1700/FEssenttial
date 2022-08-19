@@ -1,0 +1,11 @@
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\bin\Debug\net6.0\MyProject.deps.json
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\bin\Debug\net6.0\MyProject.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\bin\Debug\net6.0\MyProject.pdb
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\bin\Debug\net6.0\MyProject.xml
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.fsproj.AssemblyReference.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.AssemblyInfoInputs.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.AssemblyInfo.fs
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.fsproj.CoreCompileInputs.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.xml
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 5\MySolution\src\MyProject\obj\Debug\net6.0\MyProject.pdb
