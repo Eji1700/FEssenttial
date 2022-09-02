@@ -45,8 +45,7 @@ module ``Add item to order`` =
         
         let expected = 
             { Id = 1; Items = 
-                [   ProductId = 1
-                    Quantity = 4 ] }
+                [ { ProductId = 1; Quantity = 4  } ] }
 
         let actual = 
             myOrder 
