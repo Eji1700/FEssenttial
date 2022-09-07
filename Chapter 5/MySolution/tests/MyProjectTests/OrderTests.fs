@@ -64,10 +64,30 @@ module ``add multiple items to an order`` =
                     { ProductId = 1; Quantity = 1 }
                     { ProductId = 2; Quantity = 5 }
                 ]}
+
         let actual = 
             myEmptyOrder 
             |> addItems [
                     { ProductId = 1; Quantity = 1 }
                     { ProductId = 2; Quantity = 5 }
                 ]
+        actual |> should equal expected
+
+    [<Fact>]
+    let ``when new products and updated existing to order`` () =
+        let myOrder = 
+            { Id = 1; Items = 
+                [ { ProductId = 1; Quantity = 1 } ] }
+
+        let expected = 
+            { Id = 1; Items = 
+                [   { ProductId = 1; Quantity = 2 }; 
+                    { ProductId = 2; Quantity = 5 } ] }
+                    
+        let actual = 
+            myOrder
+            |> addItems [ 
+                    { ProductId = 1; Quantity = 1 }; 
+                    { ProductId = 2; Quantity = 5 } ]
+
         actual |> should equal expected
