@@ -9,7 +9,6 @@ type Order = {
     Id: int
     Items: Item list
 }
-
 module Domain =
     let recalculate items =
         items

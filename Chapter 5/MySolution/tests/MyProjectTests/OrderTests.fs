@@ -83,11 +83,46 @@ module ``add multiple items to an order`` =
             { Id = 1; Items = 
                 [   { ProductId = 1; Quantity = 2 }; 
                     { ProductId = 2; Quantity = 5 } ] }
-                    
+
         let actual = 
             myOrder
             |> addItems [ 
                     { ProductId = 1; Quantity = 1 }; 
                     { ProductId = 2; Quantity = 5 } ]
 
+        actual |> should equal expected
+
+module ``Removing a product`` =
+    
+    [<Fact>]
+    let ``when remove all items of existing productid`` () =
+        let myEmptyOrder = 
+            {   Id = 1
+                Items = [ { ProductId = 1; Quantity = 1 } ] }
+
+        let expected = 
+            {   Id = 1
+                Items = [] }
+
+        let actual: Order = 
+            myEmptyOrder 
+            |> removeProduct 1
+
+        actual |> should equal expected
+
+    [<Fact>]
+    let ``should do nothing for non-existant productid`` () =
+        let myOrder = 
+            {   Id = 2
+                Items = [ { ProductId = 1; Quantity = 1 } ] }
+
+        let expected = 
+            {   Id = 2
+                Items = [   
+                    { ProductId = 1; Quantity = 1} ] }
+
+        let actual: Order = 
+            myOrder 
+            |> removeProduct 2
+            
         actual |> should equal expected
