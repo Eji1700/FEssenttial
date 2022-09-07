@@ -52,3 +52,22 @@ module ``Add item to order`` =
             |> addItem { ProductId = 1; Quantity = 3 }
         
         actual |> should equal expected
+
+module ``add multiple items to an order`` =
+
+    [<Fact>]
+    let ``when new prodcuts added to empty order`` () =
+        let myEmptyOrder = { Id = 1; Items = [] }
+        let expected = 
+            {   Id = 1 
+                Items = [
+                    { ProductId = 1; Quantity = 1 }
+                    { ProductId = 2; Quantity = 5 }
+                ]}
+        let actual = 
+            myEmptyOrder 
+            |> addItems [
+                    { ProductId = 1; Quantity = 1 }
+                    { ProductId = 2; Quantity = 5 }
+                ]
+        actual |> should equal expected
