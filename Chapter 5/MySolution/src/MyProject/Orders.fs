@@ -11,23 +11,25 @@ type Order = {
 }
 
 module Domain =
+    let recalculate items =
+        items
+        |> List.groupBy ( fun i -> i.ProductId )
+        |> List.map ( fun (id, items) -> 
+            {   ProductId = id
+                Quantity = 
+                    items 
+                    |> List.sumBy ( fun i -> i.Quantity ) } )
+
     let addItem item order =
         let items = 
             item::order.Items
-            |> List.groupBy (fun i -> i.ProductId)
-            |> List.map(fun (id, items) -> { ProductId = id; Quantity = items |> List.sumBy ( fun i -> i.Quantity)})
-            |> List.sortBy (fun i -> i.ProductId)
+            |> recalculate
+            |> List.sortBy ( fun i -> i.ProductId )
         { order with Items = items}
 
     let addItems newItems order =  
         let items =
             newItems @ order.Items
-            |> List.groupBy ( fun i -> i.ProductId )
-            |> List.map (fun ( id, items ) ->
-                {   ProductId = id
-                    Quantity =
-                        items
-                        |> List.sumBy(fun i ->
-                            i.Quantity)})
+            |> recalculate
             |> List.sortBy(fun i -> i.ProductId)
-        { order with Items = items}
+        { order with Items = items }
