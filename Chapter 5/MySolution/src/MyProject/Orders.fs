@@ -33,3 +33,11 @@ module Domain =
             |> recalculate
             |> List.sortBy(fun i -> i.ProductId)
         { order with Items = items }
+
+    let removeProduct productId order =
+        let items =
+            order.Items
+            |> List.filter ( fun x -> x.ProductId <> productId)
+            |> List.sortBy ( fun i -> i.ProductId )
+        { order with Items = items }
+        
