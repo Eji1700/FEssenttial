@@ -39,4 +39,12 @@ module Domain =
             |> List.filter ( fun x -> x.ProductId <> productId)
             |> List.sortBy ( fun i -> i.ProductId )
         { order with Items = items }
-        
+
+    let reduceItem proudctId quantity order =
+        let items =
+            { ProductId = proudctId; Quantity = -quantity }  :: order.Items
+            |> recalculate
+            |> List.filter ( fun x -> x.Quantity > 0 )
+            |> List.sortBy ( fun i -> i.ProductId )
+
+        { order with Items = items }    

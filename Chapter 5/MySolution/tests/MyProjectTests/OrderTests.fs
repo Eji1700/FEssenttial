@@ -126,3 +126,20 @@ module ``Removing a product`` =
             |> removeProduct 2
             
         actual |> should equal expected
+
+module ``Reduce item quantity`` =
+
+    [<Fact>]
+    let ``reduce existing item quantity`` () =
+        let myOrder = 
+            {   Id = 2
+                Items = [ { ProductId = 1; Quantity = 5 } ] }
+
+        let expected = 
+            {   Id = 2; Items = [] }
+
+        let actual: Order = 
+            myOrder 
+            |> reduceItem 1 5
+            
+        actual |> should equal expected
