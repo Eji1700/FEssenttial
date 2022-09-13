@@ -48,3 +48,6 @@ module Domain =
             |> List.sortBy ( fun i -> i.ProductId )
 
         { order with Items = items }    
+
+    let clearItems order =
+        { order with Items = [] }

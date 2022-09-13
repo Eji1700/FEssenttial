@@ -143,3 +143,32 @@ module ``Reduce item quantity`` =
             |> reduceItem 1 5
             
         actual |> should equal expected
+
+    [<Fact>]
+    let ``reduce item with no quantity`` () =
+        let myOrder = 
+            {   Id = 2
+                Items = [ { ProductId = 1; Quantity = 5 } ] }
+
+        let expected = 
+            {   Id = 2; Items = [] }
+
+        let actual: Order = 
+            myOrder 
+            |> reduceItem 1 5
+            
+        actual |> should equal expected
+
+    [<Fact>]
+    let ``reduce item with no quantity for empty order`` () =
+        let myEmptyOrder = 
+            {   Id = 4; Items = [] }
+
+        let expected = 
+            {   Id = 4; Items = [] }
+
+        let actual: Order = 
+            myEmptyOrder 
+            |> reduceItem 2 5
+            
+        actual |> should equal expected    
