@@ -171,4 +171,27 @@ module ``Reduce item quantity`` =
             myEmptyOrder 
             |> reduceItem 2 5
             
-        actual |> should equal expected    
+        actual |> should equal expected  
+
+module ``Empty an order of all items`` =
+
+    [<Fact>]
+    let ``order with existing item`` () =
+        let myOrder = 
+            {   Id = 1
+                Items = 
+                    [ { ProductId = 1
+                        Quantity = 1 }
+                    ]
+            }
+
+        let expected = { Id = 1; Items = [] }
+        let actual = myOrder |> clearItems
+        actual |> should equal expected  
+    
+    [<Fact>]
+    let ``empty order is unchanged`` () =
+        let myEmptyOrder = {   Id = 2; Items = [] }
+        let expected = { Id = 2; Items = [] }
+        let actual = myEmptyOrder |> clearItems
+        actual |> should equal expected  
