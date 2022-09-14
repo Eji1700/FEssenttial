@@ -10,12 +10,9 @@ type Customer = {
     Discount : string
 }
 
-let parse (data:string seq) =
-    data
-    |> Seq.skip 1
-    |> Seq.map( fun line ->
-        match line.Split('|') with 
-        | [| customerId; email; eligible; registered; dateRegistered; discount |] ->
+let parseLine (line:string) : Customer option =
+    match line.Split('|') with
+    | [| customerId; email; eligible; registered; dateRegistered; discount |] ->
             Some {
                 CustomerId = customerId
                 Email = email
@@ -24,8 +21,12 @@ let parse (data:string seq) =
                 DateRegistered = dateRegistered
                 Discount = discount
             }
-        | _ -> None
-    )
+    | _ -> None
+
+let parse (data:string seq) =
+    data
+    |> Seq.skip 1
+    |> Seq.map parseLine
     |> Seq.choose id
 
 let readFile path =
