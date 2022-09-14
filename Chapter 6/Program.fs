@@ -19,6 +19,6 @@ let import path =
 
 [<EntryPoint>]
 let main argv =
-    let path = Path.Combine(__SOURCE_DIRECTORY__, "resources", "customers.csv")
+    Path.Combine(__SOURCE_DIRECTORY__, "resources", "customers.csv")
     |> import
     0
