@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "0jLakQE4RbD/IzlFTpyfIkqqV3EVV3khdwsGYCMF8U+9PuHZtPO876a2in2Wq7OzIbX4V2p1PpX8NnUMRN6+vg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DavidUngar\\OneDrive\\Documents\\Code\\FSharp\\FEssenttial\\Chapter 12\\Chapter 12.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512",
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fstoolkit.errorhandling\\4.6.0\\fstoolkit.errorhandling.4.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}

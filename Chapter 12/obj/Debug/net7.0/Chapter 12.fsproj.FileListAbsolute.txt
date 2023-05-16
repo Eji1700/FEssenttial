@@ -1,0 +1,30 @@
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\Chapter 12.exe
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\Chapter 12.deps.json
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\Chapter 12.runtimeconfig.json
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\Chapter 12.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\Chapter 12.pdb
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\FSharp.Core.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\cs\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\de\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\es\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\fr\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\it\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\ja\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\ko\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\pl\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\pt-BR\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\ru\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\tr\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\zh-Hans\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\zh-Hant\FSharp.Core.resources.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.fsproj.AssemblyReference.cache
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.AssemblyInfoInputs.cache
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.AssemblyInfo.fs
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.fsproj.CoreCompileInputs.cache
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.fsproj.CopyComplete
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\refint\Chapter 12.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.pdb
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\Chapter 12.genruntimeconfig.cache
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\obj\Debug\net7.0\ref\Chapter 12.dll
+C:\Users\DavidUngar\OneDrive\Documents\Code\FSharp\FEssenttial\Chapter 12\bin\Debug\net7.0\FsToolkit.ErrorHandling.dll

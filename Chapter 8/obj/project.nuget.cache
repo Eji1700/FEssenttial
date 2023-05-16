@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "lDeek1ZRZ+kd4uF2EVR2Pci+nteiOR+trF5zkV+oDP7KDQ4ZNnEllcveD9i47177mpH80xdCkL3LipOUYyZvXw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DavidUngar\\Documents\\Code\\F#\\FEssenttial\\Chapter 8\\Chapter 8.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\6.0.5\\fsharp.core.6.0.5.nupkg.sha512",
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fstoolkit.errorhandling\\4.0.0\\fstoolkit.errorhandling.4.0.0.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1605",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Detected package downgrade: FSharp.Core from 7.0.0 to 6.0.5. Reference the package directly from the project to select a different version. \r\n Chapter 8 -> FsToolkit.ErrorHandling 4.0.0 -> FSharp.Core (>= 7.0.0) \r\n Chapter 8 -> FSharp.Core (>= 6.0.5)",
+      "libraryId": "FSharp.Core",
+      "targetGraphs": [
+        "net6.0"
+      ]
+    }
+  ]
+}

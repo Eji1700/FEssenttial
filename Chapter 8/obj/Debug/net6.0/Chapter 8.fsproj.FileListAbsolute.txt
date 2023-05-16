@@ -1,0 +1,28 @@
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\Chapter 8.exe
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\Chapter 8.deps.json
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\Chapter 8.runtimeconfig.json
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\Chapter 8.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\Chapter 8.pdb
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\FSharp.Core.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\cs\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\de\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\es\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\fr\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\it\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\ja\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\ko\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\pl\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\pt-BR\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\ru\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\tr\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\zh-Hans\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\zh-Hant\FSharp.Core.resources.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.fsproj.AssemblyReference.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.AssemblyInfoInputs.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.AssemblyInfo.fs
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.fsproj.CoreCompileInputs.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.fsproj.CopyComplete
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.dll
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.pdb
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\obj\Debug\net6.0\Chapter 8.genruntimeconfig.cache
+C:\Users\DavidUngar\Documents\Code\F#\FEssenttial\Chapter 8\bin\Debug\net6.0\FsToolkit.ErrorHandling.dll
