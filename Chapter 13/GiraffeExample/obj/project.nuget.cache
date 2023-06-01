@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "OT64EBRekEvgzDAOxqClxc+eUFHqd6xRndVhNdlXpRzK/EQkrrTrQDcGVluJZ7siTuw5Ktn6HolnMODukBcVcA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\DavidUngar\\OneDrive\\Documents\\Code\\FSharp\\FEssenttial\\Chapter 13\\GiraffeExample\\GiraffeExample.fsproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\DavidUngar\\.nuget\\packages\\fsharp.core\\7.0.200\\fsharp.core.7.0.200.nupkg.sha512"
+  ],
+  "logs": []
+}
